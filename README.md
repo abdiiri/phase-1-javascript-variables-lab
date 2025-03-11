@@ -113,11 +113,11 @@ it('is set as Scuber', function () {
 });
 ```
 
-This example shows that the test expects `companyName` to equal `Scuber`. That
+his example shows that the test expects `companyName` to equal `Scuber`. That
 `expect` and `to.equal` are essentially doing the same thing as `companyName ==
 'Scuber'`. In other words, `expect(companyName).to.equal('Scuber')` is running
 code that will have this first test pass if `companyName` equals `Scuber` and
-fail if it does not.
+fail if it does not.T
 
 Don't worry too much yet if it's hard to understand what is happening inside of
 the `test/indexTest.js` file. But it's a good idea to open up the file, and
